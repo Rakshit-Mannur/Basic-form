@@ -27,7 +27,7 @@
          $lastname = $_POST['lastname'];
          $branch =  $_POST['branch'];
 
-         $sql="INSERT INTO list values('".$_POST["$firstname"]."','".$_POST["$lastname"]."','".$_POST["$branch"]."')";
+         $sql="INSERT INTO list (firstname,lastname,branch) values('$firstname','$lastname','$branch')";
 
          if(mysqli_query($conn,$sql))
          {
