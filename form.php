@@ -17,8 +17,8 @@
 <div class="row">
  <div class="form-group col-lg-12">
   <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label" id="hesar">Firstname</label>
-    <input type="text" class="form-control" id="exampleInputEmail1" name="firstname" id="firstname">
+    <label for="exampleInputEmail1" class="form-label" id="hesar"></label>
+    <input type="text" class="form-control" id="exampleInputEmail1" name="firstname" id="firstname" placeholder="Firstname">
   </div>
   </div>
 </div>
@@ -26,8 +26,8 @@
 <div class="row">
  <div class="form-group col-lg-12">  
   <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Lastname</label>
-    <input type="text" class="form-control" id="exampleInputPassword1" name="lastname" id="lastname">
+    <label for="exampleInputPassword1" class="form-label"></label>
+    <input type="text" class="form-control" id="exampleInputPassword1" name="lastname" id="lastname" placeholder="Lastname"> 
   </div>
   </div>
   </div>
@@ -35,13 +35,13 @@
   <div class="row">
  <div class="form-group col-lg-12">
   <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Branch</label>
-    <input type="text" class="form-control" id="exampleInputPassword1" name="branch" id="branch">
+    <label for="exampleInputPassword1" class="form-label"></label>
+    <input type="text" class="form-control" id="exampleInputPassword1" name="branch" id="branch" placeholder="Branch"> 
   </div>
   </div>
   </div>
-
-  <input type="submit" class="btn btn-primary" value="Submit" id="submit" name="submit"></input>
+  <button class="btn btn-dark" value="Submit" id="submit" name="submit" style="margin-top: 30;">Register</button>
+  <!-- <input type="submit" class="btn btn-primary" value="Submit" id="submit" name="submit"></input> -->
   
 </form>
 </div>

@@ -14,12 +14,12 @@
         <table class="table table-dark table-striped"> 
             <thead>
               <tr>
-                <th scope="col">id</th>
-                <th scope="col">Firstname</th>
-                <th scope="col">Lastname</th>
-                <th scope="col">Branch</th>
-                <th scope="col">Delete</th>
-                <th scope="col">Update</th>
+                <th scope="col" style="text-align: center;">id</th>
+                <th scope="col" style="text-align: center;">Firstname</th>
+                <th scope="col" style="text-align: center;">Lastname</th>
+                <th scope="col" style="text-align: center;">Branch</th>
+                <th scope="col" style="text-align: center;">Delete</th>
+                <th scope="col" style="text-align: center;">Update</th>
               </tr>
             </thead>
                 <?php 
@@ -30,12 +30,12 @@
                 ?>
                 <tbody>
             <tr>
-                <td><?php echo $row['0']?></td>
-                <td><?php echo $row['1']?></td>
-                <td><?php echo $row['2']?></td>
-                <td><?php echo $row['3']?></td>
-                <td><a href="delete.php?did=<?php echo $row['0']; ?>">Delete</a></td>
-                <td><a href="update.php?uid=<?php echo $row['0']; ?>">Update</a></td>
+                <td style="text-align: center;"><?php echo $row['0']?></td>
+                <td style="text-align: center;"><?php echo $row['1']?></td>
+                <td style="text-align: center;"><?php echo $row['2']?></td>
+                <td style="text-align: center;"><?php echo $row['3']?></td>
+                <td style="text-align: center;"><a href="delete.php?did=<?php echo $row['0']; ?>"><button type="button" class="btn btn-dark">Delete</button></a></td>
+                <td style="text-align: center;"><a href="update.php?uid=<?php echo $row['0']; ?>"><button type="button" class="btn btn-dark">Update</button></a></td>
               <?php } ?>
             </tr>
             </tbody>
